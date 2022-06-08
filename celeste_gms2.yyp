@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"s_madeline_jump","path":"sprites/s_madeline_jump/s_madeline_jump.yy",},"order":1,},
+    {"id":{"name":"s_madeline_climb","path":"sprites/s_madeline_climb/s_madeline_climb.yy",},"order":25,},
     {"id":{"name":"t_rock","path":"tilesets/t_rock/t_rock.yy",},"order":0,},
     {"id":{"name":"s_tile_rock","path":"sprites/s_tile_rock/s_tile_rock.yy",},"order":23,},
     {"id":{"name":"s_chest_big","path":"sprites/s_chest_big/s_chest_big.yy",},"order":21,},
