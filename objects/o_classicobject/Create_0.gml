@@ -1,0 +1,9 @@
+m_type = 0;
+m_collideable = true;
+m_solids = true;
+m_spr = 0.0;
+m_flipX = false;
+m_flipY = false;
+m_hitbox = new Rectangle(0, 0, 8, 8);
+m_spd = new Vector2(0, 0);
+m_rem = new Vector2(0, 0);
