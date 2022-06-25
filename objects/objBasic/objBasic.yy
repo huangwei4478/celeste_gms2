@@ -1,13 +1,11 @@
 {
-  "name": "o_game",
   "spriteId": null,
-  "spriteMaskId": null,
-  "visible": true,
   "solid": false,
+  "visible": true,
+  "spriteMaskId": null,
   "persistent": false,
-  "physicsObject": false,
-  "managed": true,
   "parentObjectId": null,
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -21,6 +19,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -29,6 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
+  "name": "objBasic",
   "tags": [],
   "resourceType": "GMObject",
 }

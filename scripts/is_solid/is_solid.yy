@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Vector",
+  "name": "is_solid",
   "tags": [],
   "resourceType": "GMScript",
 }
