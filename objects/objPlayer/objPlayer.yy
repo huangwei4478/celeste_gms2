@@ -1,10 +1,11 @@
 {
   "spriteId": {
-    "name": "s_madeline_move",
-    "path": "sprites/s_madeline_move/s_madeline_move.yy",
+    "name": "s_madeline_red_right",
+    "path": "sprites/s_madeline_red_right/s_madeline_red_right.yy",
   },
   "solid": true,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
