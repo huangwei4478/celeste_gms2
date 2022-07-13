@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"s_solid","path":"sprites/s_solid/s_solid.yy",},"order":33,},
     {"id":{"name":"objSolid","path":"objects/objSolid/objSolid.yy",},"order":3,},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":1,},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"order":0,},
     {"id":{"name":"objBasic","path":"objects/objBasic/objBasic.yy",},"order":1,},
     {"id":{"name":"t_rock","path":"tilesets/t_rock/t_rock.yy",},"order":0,},
@@ -12,6 +13,7 @@
     {"id":{"name":"s_tile_ice","path":"sprites/s_tile_ice/s_tile_ice.yy",},"order":22,},
     {"id":{"name":"s_madeline_green_left","path":"sprites/s_madeline_green_left/s_madeline_green_left.yy",},"order":29,},
     {"id":{"name":"s_spike_left","path":"sprites/s_spike_left/s_spike_left.yy",},"order":7,},
+    {"id":{"name":"appr","path":"scripts/appr/appr.yy",},"order":1,},
     {"id":{"name":"s_grass_02","path":"sprites/s_grass_02/s_grass_02.yy",},"order":15,},
     {"id":{"name":"s_cloud","path":"sprites/s_cloud/s_cloud.yy",},"order":3,},
     {"id":{"name":"s_madeline_green_right","path":"sprites/s_madeline_green_right/s_madeline_green_right.yy",},"order":30,},
@@ -40,7 +42,7 @@
     {"id":{"name":"s_madeline_blue_right","path":"sprites/s_madeline_blue_right/s_madeline_blue_right.yy",},"order":28,},
     {"id":{"name":"t_ice","path":"tilesets/t_ice/t_ice.yy",},"order":1,},
     {"id":{"name":"s_straberry","path":"sprites/s_straberry/s_straberry.yy",},"order":11,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"Room_init","path":"rooms/Room_init/Room_init.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Amazon Fire","path":"options/amazonfire/options_amazonfire.yy",},
@@ -61,6 +63,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Room_init","path":"rooms/Room_init/Room_init.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [

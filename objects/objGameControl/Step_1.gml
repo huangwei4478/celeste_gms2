@@ -17,6 +17,3 @@ global.keyDashPressed = keyboard_check_pressed(global.dashKey);
 global.keyPausePressed = keyboard_check_pressed(global.pauseKey);
 
 global.step = ((global.step + 1) % 30);
-
-
-
