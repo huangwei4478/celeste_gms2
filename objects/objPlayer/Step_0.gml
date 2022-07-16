@@ -161,7 +161,6 @@ if (dash_time > 0) {
 		}
 		
 		// TODO: play dash sound
-		// TODO: shake screen
 		global.shake = 6;
 		dash_target_x = 2 * sign(spdX);
 		dash_target_y = 2 * sign(spdY);
