@@ -13,7 +13,7 @@ inputY = global.keyDown - global.keyUp;
 // TODO: spikes meeting
 if (y > 128) { 	// fall causes player death
 	// kill player
-	
+	global.shake = 10;
 	objGameControl.alarm[0] = 30;		// to restart room after animations
 	instance_destroy();
 }
@@ -162,7 +162,7 @@ if (dash_time > 0) {
 		
 		// TODO: play dash sound
 		// TODO: shake screen
-		
+		global.shake = 6;
 		dash_target_x = 2 * sign(spdX);
 		dash_target_y = 2 * sign(spdY);
 		dash_accel_x = 1.5;

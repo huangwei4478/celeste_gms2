@@ -17,3 +17,14 @@ global.keyDashPressed = keyboard_check_pressed(global.dashKey);
 global.keyPausePressed = keyboard_check_pressed(global.pauseKey);
 
 global.step = ((global.step + 1) % 30);
+
+// screen-shake effects
+if (global.shake > 0) {
+	global.shake--;
+	
+	if (global.shake > 0) {
+		camera_set_view_pos(view_camera[0], -1 + random(3), -1 + random(3));
+	} else {
+		camera_set_view_pos(view_camera[0], 0, 0);
+	}
+}
