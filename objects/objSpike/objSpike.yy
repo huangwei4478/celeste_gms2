@@ -1,10 +1,7 @@
 {
-  "spriteId": {
-    "name": "s_solid",
-    "path": "sprites/s_solid/s_solid.yy",
-  },
-  "solid": true,
-  "visible": false,
+  "spriteId": null,
+  "solid": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -24,11 +21,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Collisions",
+    "path": "folders/Objects/Collisions.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objSolid",
+  "name": "objSpike",
   "tags": [],
   "resourceType": "GMObject",
 }

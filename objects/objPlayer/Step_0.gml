@@ -10,8 +10,7 @@ else if (x > 121) { x = 121; spdX = 0; }
 inputX = global.keyRight - global.keyLeft;
 inputY = global.keyDown - global.keyUp;
 
-// TODO: spikes meeting
-if (y > 128) { 	// fall causes player death
+if (place_meeting(x, y, objSpike) ||  y > 128) { 	// spikes or fall causes player death
 	// kill player
 	global.shake = 10;
 	objGameControl.alarm[0] = 30;		// to restart room after animations

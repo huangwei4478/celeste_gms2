@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "s_cloud",
-    "path": "sprites/s_cloud/s_cloud.yy",
+    "name": "s_spike_up",
+    "path": "sprites/s_spike_up/s_spike_up.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "objBasic",
-    "path": "objects/objBasic/objBasic.yy",
+    "name": "objSpike",
+    "path": "objects/objSpike/objSpike.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,18 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Collisions",
+    "path": "folders/Objects/Collisions.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objPlatform",
+  "name": "objSpikeUp",
   "tags": [],
   "resourceType": "GMObject",
 }
