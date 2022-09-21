@@ -26,6 +26,7 @@
     {"id":{"name":"s_flower","path":"sprites/s_flower/s_flower.yy",},"order":14,},
     {"id":{"name":"s_key","path":"sprites/s_key/s_key.yy",},"order":0,},
     {"id":{"name":"s_flag","path":"sprites/s_flag/s_flag.yy",},"order":17,},
+    {"id":{"name":"objDeathParticle","path":"objects/objDeathParticle/objDeathParticle.yy",},"order":1,},
     {"id":{"name":"objPlatform","path":"objects/objPlatform/objPlatform.yy",},"order":4,},
     {"id":{"name":"s_tree","path":"sprites/s_tree/s_tree.yy",},"order":11,},
     {"id":{"name":"s_chest_small","path":"sprites/s_chest_small/s_chest_small.yy",},"order":7,},

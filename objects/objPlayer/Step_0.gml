@@ -13,6 +13,15 @@ inputY = global.keyDown - global.keyUp;
 if (place_meeting(x, y, objSpike) ||  y > 128) { 	// spikes or fall causes player death
 	// kill player
 	global.shake = 10;
+	
+	// create death particles
+	for (var i = 0; i < 8; i++) {
+		deadParticleAngle = 45 * i;
+		newDeathParticle = instance_create_layer(x + 4, y + 4, "Instances", objDeathParticle);
+		newDeathParticle.spdX = 3.0 * cos(deadParticleAngle);
+		newDeathParticle.spdY = 3.0 * sin(deadParticleAngle);
+	}
+	
 	objGameControl.alarm[0] = 30;		// to restart room after animations
 	instance_destroy();
 }
