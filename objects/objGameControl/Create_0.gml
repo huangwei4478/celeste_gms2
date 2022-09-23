@@ -12,10 +12,11 @@ global.downKey = vk_down;
 global.jumpKey = ord("Z");
 global.dashKey = ord("X");
 global.pauseKey = vk_enter;
-	
-	
+global.font = fontPixel;	
+
 global.game_initialized = true;
-	
+global.got_fruit = ds_list_create();
+global.level_index = 0;
 global.step = 0;
 global.pause_player = false;
 global.shake = 0;
@@ -27,6 +28,9 @@ paused = false;
 pause_continue_selected = true;
 global.hash_dashed = false;
 global.has_key = false;
+
+// set font
+draw_set_font(global.font);
 
 // PICO-8 color palette
 global.palette = [

@@ -18,8 +18,8 @@ if (place_meeting(x, y, objSpike) ||  y > 128) { 	// spikes or fall causes playe
 	for (var i = 0; i < 8; i++) {
 		deadParticleAngle = 45 * i;
 		newDeathParticle = instance_create_layer(x + 4, y + 4, "Instances", objDeathParticle);
-		newDeathParticle.spdX = 3.0 * cos(deadParticleAngle);
-		newDeathParticle.spdY = 3.0 * sin(deadParticleAngle);
+		newDeathParticle.spdX = 3.0 * dcos(deadParticleAngle);
+		newDeathParticle.spdY = 3.0 * dsin(deadParticleAngle);
 	}
 	
 	objGameControl.alarm[0] = 30;		// to restart room after animations
@@ -231,8 +231,6 @@ if (djump == 2) {
 } else {
 	sprite_index = (flipX ? s_madeline_blue_left : s_madeline_blue_right);
 }
-
-
 
 
 was_on_ground = on_ground;
