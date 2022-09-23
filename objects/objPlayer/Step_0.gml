@@ -29,7 +29,7 @@ if (place_meeting(x, y, objSpike) ||  y > 128) { 	// spikes or fall causes playe
 on_ground = is_solid(0, 1);
 
 if (on_ground && !was_on_ground) {
-	// TODO: create smoke effects
+	instance_create_depth(x, y, -100, objSmokeParticle);
 }
 
 jump = global.keyJump && !p_jump;
@@ -116,7 +116,7 @@ if (dash_time > 0) {
 			jbuffer = 0;
 			grace = 0;
 			spdY = -2.0;
-			// TODO: create smoke particle
+			instance_create_depth(x, y, -100, objSmokeParticle);
 		} else {
 			// has jump buffer, but no grace, which means madeline trys to 
 			// jump in mid-air
@@ -142,7 +142,8 @@ if (dash_time > 0) {
 	if (djump > 0 && dash) {
 		// madeline can dash no wnow
 		
-		// TODO: create smoke particles
+		instance_create_depth(x, y, -100, objSmokeParticle);
+		
 		djump--;
 		dash_time = 4;
 		global.hash_dashed = true;			// detecting dash for flying fruit
@@ -192,7 +193,7 @@ if (dash_time > 0) {
 		// madeline wants to dash, but no dashes available
 		
 		// TODO: audio no dash sound
-		// TODO: create smoke effects
+		instance_create_depth(x, y, -100, objSmokeParticle);
 	}
 }
 
