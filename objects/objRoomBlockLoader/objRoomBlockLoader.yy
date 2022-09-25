@@ -1,12 +1,9 @@
 {
-  "spriteId": {
-    "name": "s_solid",
-    "path": "sprites/s_solid/s_solid.yy",
-  },
-  "solid": true,
+  "spriteId": null,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
-  "persistent": false,
+  "persistent": true,
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
@@ -20,15 +17,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Collisions",
-    "path": "folders/Objects/Collisions.yy",
+    "name": "Controls",
+    "path": "folders/Objects/Controls.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objSolid",
+  "name": "objRoomBlockLoader",
   "tags": [],
   "resourceType": "GMObject",
 }

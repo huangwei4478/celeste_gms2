@@ -3,6 +3,7 @@
     {"id":{"name":"s_solid","path":"sprites/s_solid/s_solid.yy",},"order":31,},
     {"id":{"name":"objSolid","path":"objects/objSolid/objSolid.yy",},"order":5,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":1,},
+    {"id":{"name":"objRoomBlockLoader","path":"objects/objRoomBlockLoader/objRoomBlockLoader.yy",},"order":1,},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"order":0,},
     {"id":{"name":"objBasic","path":"objects/objBasic/objBasic.yy",},"order":1,},
     {"id":{"name":"t_rock","path":"tilesets/t_rock/t_rock.yy",},"order":0,},
